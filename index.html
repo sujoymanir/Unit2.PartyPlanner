@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Party Events</h1>
+    <p>Please add the name, description, date and location</p>
+    <form id="addEvent">
+      <h2>Schedule a New Party</h2>
+      <label for="name">Name:</label>
+      <input type="event_name" id="name" name="name" required />
+
+      <label for="description">Description:</label>
+      <input type="description" id="description" name="description" />
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="location">Location:</label>
+      <input type="location" id="location" name="location" required />
+
+      <button id="eventButton">Add Event</button>
+    </form>
+    <ul id="events"></ul>
+  </body>
+</html>
